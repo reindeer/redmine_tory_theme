@@ -568,7 +568,6 @@ th {
 }
 #top-menu #loggedas {
   float: right;
-  min-width: 150px;
 }
 #top-menu ul {
   text-align: left;
@@ -593,7 +592,7 @@ th {
 #top-menu ul li:hover a {
   color: #fff;
 }
-#top-menu ul li ul {
+#top-menu > ul > li > ul {
   z-index: 1;
   padding: 0;
   position: absolute;
@@ -606,7 +605,7 @@ th {
   visibility: hidden;
   -transition: opacity 0.2s;
 }
-#top-menu ul li ul li { 
+#top-menu > ul > li > ul > li { 
   background: #555; 
   display: block; 
   width: 100%;
